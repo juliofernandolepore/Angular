@@ -4,11 +4,14 @@ import { Component } from "@angular/core";
 
 /* a continuacion le agrego el decorador y se hace el auto import */
 
-@Component({
-    /* ahora le agrego los atributos */
+/* ahora le agrego los atributos */
+/* ahora procedp a agregarlo en app.module.ts en declarations de ng module y su respectivo import en ese app.module.ts */
+
+
+@Component({    
     selector: "tutuca",
-    templateUrl: "./personas.component.html",
-    /* ahora procedp a agregarlo en app.module.ts en declarations de ng module y su respectivo import en ese app.module.ts */
+    templateUrl: "./personas.component.html",    
+    styleUrls: ['./personas.component.css'] 
 })
 export class PersonaComponent {
 
