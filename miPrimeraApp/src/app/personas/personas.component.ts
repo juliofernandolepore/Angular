@@ -17,7 +17,12 @@ export class PersonaComponent {
     nombre: string = "tutuca";
     apellido: string = "cuquito";
     private edad: number = 2;
+    deshabilitar= true; /* cambia a true o false habilita o no el boton */
     /* este es un metodo publico porque el atributo edad esta establecido en privado */
+    mensaje: string = "no se agrego ninguna persona aun";
+    agregarPersona (){
+        this.mensaje = "persona agregada";
+    }
     getEdad():number{
          return this.edad;
     } 

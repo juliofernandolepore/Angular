@@ -4,3 +4,11 @@
   edad: {{getEdad() + 20}}
 </p>
 
+<div (keyup)="0">
+  <label>captura de teclado: </label>
+  <input #entrada />
+  {{entrada.value}}
+</div>
+
+<button class="btn btn-primary m-5" (click)="agregarPersona()">evento angular agregar persona</button>
+<p>{{mensaje}}</p>

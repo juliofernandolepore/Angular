@@ -10,4 +10,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   titular = 'soy una exportacion de la clase AppComponent';
   saludo = "saludo desde angular(segunda variable en AppComponent";
+  
 }
