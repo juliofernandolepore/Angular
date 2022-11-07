@@ -7,7 +7,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent , PersonaComponent, NavBarComponent  /* aqui dentro coloco el componente creado por mi en este caso: personas */
+    AppComponent , PersonaComponent, NavBarComponent  
+    /* aqui dentro coloco el componente creado. */
   ],
   imports: [
     BrowserModule

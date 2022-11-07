@@ -42,3 +42,21 @@ comando de angular CLI para crear componentes(forma explicita y forma abreviada)
 ng generate component nombre-del-componente
 
 ng g c nombre-del-componente
+
+---
+
+CREACION DE UN COMPONENTE INLINE ( dentro de @component )
+
+ng g c nombre-del-componente -s -t
+
+---
+
+Instalacion de bootstrap via NPM
+
+npm install bootstrap --save
+
+---
+
+Installation BOOTSTRAP for Angular CLI
+
+ng add @ng-bootstrap/ng-bootstrap
