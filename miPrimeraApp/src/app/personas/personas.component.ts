@@ -14,5 +14,11 @@ import { Component } from "@angular/core";
     styleUrls: ['./personas.component.css'] 
 })
 export class PersonaComponent {
-
+    nombre: string = "tutuca";
+    apellido: string = "cuquito";
+    private edad: number = 2;
+    /* este es un metodo publico porque el atributo edad esta establecido en privado */
+    getEdad():number{
+         return this.edad;
+    } 
 }
